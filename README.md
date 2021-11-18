@@ -10,15 +10,20 @@ ESLint, stylelint, prettier, husky and lintstaged are configured to give you a s
 
 ## Installing / Developing
 
-First, create a repository from this template.
+First, [create a repository from this template](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-on-github/creating-a-repository-from-a-template).
 
-Now you are ready to go:
+Then clone the repository:
+
+```shell
+git clone https://github.com/your_username_/Project-Name.git
+```
+
+Now you are ready to go.
+This will install the dependencies required to run the template:
 
 ```shell
 npm install
 ```
-
-This will install the dependencies required to run the template.
 
 ```shell
 npm run dev
@@ -39,26 +44,6 @@ npm run server:dev
 npm run client:dev
 npm run storybook
 ```
-
-## Building
-
-To build the project, run:
-
-```shell
-npm run build
-```
-
-This will build the client, server and storybook.
-
-```shell
-npm start
-```
-
-In production, you have a single server serving everything.
-
-`/api/*` is the API endpoint.  
-`/storybook` is the Storybook.  
-`/*` is the client.
 
 ## Tests
 
