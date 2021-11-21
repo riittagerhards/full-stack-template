@@ -45,6 +45,26 @@ npm run client:dev
 npm run storybook
 ```
 
+## Building
+
+To build the project, run:
+
+```shell
+npm run build
+```
+
+This will build the client, server and storybook.
+
+```shell
+npm start
+```
+
+In production, you have a single server serving everything.
+
+`/api/*` is the API endpoint.  
+`/storybook` is the Storybook.  
+`/*` is the client.
+
 ## Tests
 
 A test runner is not installed (right now). But TypeScript, linter and prettier are checked on commit and push thanks to husky and lintstaged.
